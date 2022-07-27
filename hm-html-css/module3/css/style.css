@@ -1,0 +1,86 @@
+html {
+    width: 1920px;
+}
+
+* {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+.site-nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.site-nav li {
+display: inline-block;
+margin-left: 60px;
+}
+
+.site-nav li:first-child {
+    margin-left: 0;
+}
+
+.link-site-nav {
+    text-decoration: none;
+}
+
+.pages-site-nav a:hover {
+color: brown;
+}
+
+.visually-hidden:not(:focus):not(:active),input[type="checkbox"].visually-hidden,input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.articles-section {
+    width: 960px;
+    font-size: 0px;
+   margin-left: 480px;
+   box-shadow: 0px 0px 8px 1px rgb(129, 129, 129);
+}
+
+.articles-section article {
+    width: 470px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.article-photo {
+    width: 430px;
+}
+
+.article-writing-style {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    text-transform: uppercase ;
+}
+
+.articles-section h2 {
+    color: grey;
+    font-size: 20px;
+}
+
+.article-text {
+    font-size: 16px ;
+    color: grey;
+    
+}
+
+
+
